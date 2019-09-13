@@ -30,14 +30,18 @@ body{
 	flex-direction: column;
 	margin-top: 2.5vh;
 	margin-left: 1vw;
-	height: 87vh;
 	width: 20vw;
 	border-right: 1px solid #888888; 
 	box-shadow: 2px 0px #888888;
+	justify-content: space-around;
 }
 
 .image{
 	text-align: center;
+	font-size: 2.7vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .image img{
@@ -45,13 +49,12 @@ body{
 	border-radius: 50%;
 	margin-top: 3vh;
 	height: 26vh;
-	width: 12vw;
+	width: 13vw;
 }
 
 .links{
 	display: flex;
 	flex-direction: column;
-	margin-top: 1vh;
 	align-items: center;	
 }
 
@@ -61,10 +64,12 @@ body{
 	width: 15vw;
 	background-color: #987284;
 	height: 5vh;
-	font-size: 18px;
+	font-size: 2.3vh;
 	border-radius: 15px;
-	padding-top: 1vh;
 	font-family: 'Muli', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .table:hover{
@@ -121,13 +126,14 @@ body{
 .credits{
 	font-family: Lucida Sans Typewriter;
 	text-align: center;
-	font-size: 11px;
-	margin-top: 3vh;
+	font-size: 1.6vh;
 }
 
 .dash{
-	margin-top: 12vh;
-	width: 67vw;
+	width: 70vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .teste{
@@ -158,7 +164,6 @@ body{
 	overflow-wrap: normal; 
 	font-weight: bold; 
 	text-align: center;
-	color: #DDD8B8;
 }
 
 .caixinha{
@@ -167,4 +172,11 @@ body{
 	text-decoration:none;
 	white-space:normal;
 	color: #DDD8B8;
+}
+
+.dash_links{
+	display: flex;
+	align-items: flex-start;
+	margin-top: 10vh;
+	font-size: 
 }
