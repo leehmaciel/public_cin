@@ -1,0 +1,170 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #3D315B; 
+	/*background-image: url(edit.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh; */ 
+	font-family: 'Muli', sans-serif;
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;	
+}
+
+.board{
+	display: flex;
+	width: 90vw;
+	height: 90vh;
+	background: white;
+	margin-top: 10vh;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 10px;
+}
+
+.menu{
+	display: flex;
+	flex-direction: column;
+	margin-top: 2.5vh;
+	margin-left: 1vw;
+	height: 87vh;
+	width: 20vw;
+	border-right: 1px solid #888888; 
+	box-shadow: 2px 0px #888888;
+}
+
+.image{
+	text-align: center;
+}
+
+.image img{
+	border: 1px solid white;
+	border-radius: 50%;
+	margin-top: 3vh;
+	height: 26vh;
+	width: 12vw;
+}
+
+.links{
+	display: flex;
+	flex-direction: column;
+	margin-top: 1vh;
+	align-items: center;	
+}
+
+.table{
+	margin-bottom: 8px;
+	text-align: center;
+	width: 15vw;
+	background-color: #987284;
+	height: 5vh;
+	font-size: 18px;
+	border-radius: 15px;
+	padding-top: 1vh;
+	font-family: 'Muli', sans-serif;
+}
+
+.table:hover{
+	background-color: #2E2044;
+}
+
+.links a{
+	color: #DDD8B8;
+	text-decoration: none;
+}
+
+.logo{
+	display: flex;
+	margin-top: 1vh;
+	justify-content: center;
+}
+
+.tortilet{
+  	background-image: url(brigadeiro.png);
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 3.5vw 7vh;
+	width: 3.5vw;
+	height: 7vh;
+	border: 2px solid #987284;
+	border-radius: 50px;
+	padding: 5px;
+	margin: 2px;
+}
+
+.tortilet:hover{
+	border-color:#2E2044;
+  	background-image: url(brigadeiro1.png);
+}
+
+.linkedin{
+  	background-image: url(in.png);
+  	background-repeat: no-repeat;
+  	background-position: center;
+  	background-size: 2.5vw 5vh;
+	width: 3.5vw;
+	height: 7vh;
+	border: 2px solid #987284;
+	border-radius: 50px;
+	padding: 5px;
+	margin: 2px;
+}
+
+.linkedin:hover{
+	border-color:#2E2044;
+  	background-image: url(in1.png);
+}
+
+.credits{
+	font-family: Lucida Sans Typewriter;
+	text-align: center;
+	font-size: 11px;
+	margin-top: 3vh;
+}
+
+.dash{
+	margin-top: 12vh;
+	width: 67vw;
+}
+
+.teste{
+	margin-left: 25vw;
+	margin-top: 15vh;
+}
+
+.dash a{
+	fill: #3D315B;
+}
+
+.done:hover{
+	fill: #59994F;
+}
+
+.tbc:hover{
+	fill: #AD5D4E;
+}
+
+.caixa{
+	display: inline-block; 
+	font-size: 13px; 
+	font-family: 'Muli', sans-serif; 
+	color: rgb(0, 0, 0); 
+	line-height: 1.2; 
+	vertical-align: top; 
+	white-space: nowrap; 
+	overflow-wrap: normal; 
+	font-weight: bold; 
+	text-align: center;
+	color: #DDD8B8;
+}
+
+.caixinha{
+	display:inline-block;
+	text-align:inherit;
+	text-decoration:none;
+	white-space:normal;
+	color: #DDD8B8;
+}
