@@ -178,5 +178,31 @@ body{
 	display: flex;
 	align-items: flex-start;
 	margin-top: 10vh;
-	font-size: 
+	font-size: ;
+	list-style: url('star.png');
+}
+
+.dash_links li{
+	margin-bottom: 1vh;
+}
+
+.dash_links a{
+	color: blue;
+}
+
+.dash_about{
+	width: 60vw;
+
+}
+
+.about_follow{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about_follow img{
+	width: 4vw;
+	height: 8vh;
+	margin-left: 2vw;
 }
